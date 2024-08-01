@@ -48,3 +48,5 @@ nano index.ts
 - `npm install typescript --save-dev`: Instala TypeScript como una dependencia de desarrollo en el proyecto. Esto nos permitirá compilar nuestro código TypeScript a JavaScript. A este punto, puedes estarte preguntando, cual es la diferencia entre -D y --save-dev, pues la respuesta es que son lo mismo, solo que -D es una forma abreviada de --save-dev.
 - `npx tsc --init`: Entendamos este comando como el que nos permitirá configurar nuestro proyecto de TypeScript. Al ejecutarlo, se creará un archivo `tsconfig.json` con la configuración inicial.
 - ***Explicación del archivo tsconfig.json***: Este archivo de configuración contiene las opciones y ajustes para el compilador de TypeScript. Es un archivo json común que se puede editar manualmente para personalizar la configuración global del proyecto en lo que respecta a TypeScript. Te recomiendo leer el siguiente documento de [referencia](tsconfig_explicado.md) para entender mejor cada una de las opciones.
+
+en el package json ingresar en scripts "start":"tsc && node index.js"
